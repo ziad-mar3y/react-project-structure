@@ -2,6 +2,7 @@ import Navbar from "./components/layout/Navbar";
 import Button from "./components/ui/Button";
 import Card from "./components/ui/Card";
 import Table from "./components/ui/Table";
+import Home from "./pages/Home";
 
 function App() {
   const handleSave = () => {
@@ -13,8 +14,9 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App p-10">
       <Navbar />
+      <Home />
 
       <h1>Reusable Components</h1>
       <Card

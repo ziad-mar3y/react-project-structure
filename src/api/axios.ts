@@ -1,3 +1,7 @@
-const API_URL = "https://api.example.com";
+import axios from "axios";
 
-export default API_URL;
+const api = axios.create({
+  baseURL: "https://jsonplaceholder.typicode.com",
+});
+
+export default api;
